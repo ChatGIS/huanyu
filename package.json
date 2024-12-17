@@ -1,0 +1,16 @@
+{
+  "name": "huanyu",
+  "version": "1.1.0",
+  "description": "huanyu api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ChatGIS",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChatGIS/huanyu.git"
+  },
+  "license": "ISC"
+}
