@@ -1,6 +1,6 @@
 {
   "name": "huanyu",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "The repository is used to provide common APIs for GIS map front-end development, including 2D map, 3D map, and map-related algorithm APIs.",
   "main": "index.ts",
   "scripts": {
@@ -12,5 +12,5 @@
     "type": "git",
     "url": "git@github.com:ChatGIS/huanyu.git"
   },
-  "license": "ISC"
+  "license": "MIT"
 }
