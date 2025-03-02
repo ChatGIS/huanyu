@@ -26,12 +26,12 @@ const huanyuFuncTest = () => {
 ### 1. Hello HuanYu
 - hello: 输出Hello HuanYu!
 ### 2. 坐标转换
-- convertWGS84ToGCJ02: wgs84转gcj02
-- convertGCJ02ToWGS84: gcj02转wgs84
-- convertGCJ02ToBD09: gcj02转bd09
-- convertBD09ToGCJ02: bd09转gcj02
-- convertWGS84ToBD09: wgs84转bd09
-- convertBD09ToWGS84: bd09转wgs84
+- convertWGS84ToGCJ02: WGS84转GCJ02
+- convertGCJ02ToWGS84: GCJ02转WGS84
+- convertGCJ02ToBD09: GCJ02转BD09
+- convertBD09ToGCJ02: BD09转GCJ02
+- convertWGS84ToBD09: WGS84转BD09
+- convertBD09ToWGS84: BD09转WGS84
 ### 3. 数据类型工具
 - wkt2CoorArray: wkt转坐标数组,支持点、线、面(暂不支持多点多线多面)
 - wkt2CoorArrayStr: wkt转坐标数组字符串,支持点、线、面(暂不支持多点多线多面)
