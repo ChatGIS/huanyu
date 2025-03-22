@@ -1,6 +1,6 @@
 {
   "name": "huanyu",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "The repository is used to provide common APIs for GIS map front-end development, including 2D map, 3D map, and map-related algorithm APIs.",
   "main": "index.ts",
   "scripts": {

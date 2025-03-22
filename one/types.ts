@@ -1,0 +1,1 @@
+export type Coordinate = [number, number]; // [经度, 纬度]
