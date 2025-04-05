@@ -25,13 +25,21 @@ const huanyuFuncTest = () => {
 ## 二、功能列表 API List
 ### 1. Hello HuanYu
 - hello: 输出Hello HuanYu!
-### 2. 坐标转换
+### 2. GIS常用数值
+- EarthRadius: 地球平均半径(单位：米)
+### 3. 坐标转换
 - convertWGS84ToGCJ02: WGS84转GCJ02
 - convertGCJ02ToWGS84: GCJ02转WGS84
 - convertGCJ02ToBD09: GCJ02转BD09
 - convertBD09ToGCJ02: BD09转GCJ02
 - convertWGS84ToBD09: WGS84转BD09
 - convertBD09ToWGS84: BD09转WGS84
-### 3. 数据类型工具
+### 4. 计算工具
+- getDistance: 计算两点之间大圆距离(Haversine公式)
+- getDistancePlus: 计算两点之间大圆距离（Vincenty公式，更精确）
+### 5. 数学工具
+- toRadians: 角度转弧度
+- toDegrees: 弧度转角度
+### 6. 数据类型工具
 - wkt2CoorArray: wkt转坐标数组,支持点、线、面(暂不支持多点多线多面)
 - wkt2CoorArrayStr: wkt转坐标数组字符串,支持点、线、面(暂不支持多点多线多面)
