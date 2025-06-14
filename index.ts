@@ -8,7 +8,7 @@ export {
 export { EarthRadius, getDistance, getDistancePlus } from "./one/sphere";
 export { toRadians, toDegrees } from './one/math'
 export {
-    Themes as ColorThemes, getRandomColorFromTheme,
+    BrandColors, Themes as ColorThemes, getRandomColorFromTheme,
     getRandomHexColor, getRandomRGBColor, getRandomRGBAColor,
     createColorArray, isValidColor,
     convertHexToRGB, convertRGBToHex, convertRGBToRGBA, convertRGBAToRGB

@@ -1,7 +1,17 @@
 /**
  * 颜色工具库 - 提供颜色生成、转换和验证功能
  */
-
+// 品牌Logo颜色
+export const BrandColors = {
+  'Vue': '#42b883',
+  'Element': '#409EFF',
+  'Github': '#000000',
+  'GoogleR': '#EA4335',
+  'Wechat': '#07C160',
+  'Xiaomi': '#FF7E00',
+  'Python': '#FFD43B',
+  'Iconfont': '#00f9e5'
+}
 // 预设的颜色主题
 export const Themes = {
   friendly: [
@@ -16,11 +26,7 @@ export const Themes = {
     '#2D3047', '#9381FF', '#B8B8FF', '#F8F7FF', '#FFD8BE', 
     '#FF9B71', '#E84855', '#7DBBC3', '#36C4C0', '#1D8A99'
   ],
-  logo: [
-    '#ED1C16', '#00704A', '#2D85F0', '#8B0000', '#FF7E00', 
-    '#FFBC32', '#F4433C', '#F72C5B', '#42B883', '#4411AD',
-    '#0AA858', '#FFCC00', '#00BFFF'
-  ]
+  brand: Object.values(BrandColors)
 };
 /**
  * 从预设主题中获取随机颜色
