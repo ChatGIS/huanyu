@@ -3,10 +3,13 @@
  */
 // 品牌Logo颜色
 export const BrandColors = {
+  'GoogleR': '#EA4335',
+  'GoogleG': '#4285F4',
+  'GoogleB': '#34A853',
+  'GoogleY': '#FBB045',
   'Vue': '#42b883',
   'Element': '#409EFF',
   'Github': '#000000',
-  'GoogleR': '#EA4335',
   'Wechat': '#07C160',
   'Xiaomi': '#FF7E00',
   'Python': '#FFD43B',
@@ -15,15 +18,15 @@ export const BrandColors = {
 // 预设的颜色主题
 export const Themes = {
   friendly: [
-    '#FF6B6B', '#4ECDC4', '#FFD166', '#06D6A0', '#118AB2', 
+    '#FF6B6B', '#4ECDC4', '#FFD166', '#06D6A0', '#118AB2',
     '#EF476F', '#FFD166', '#073B4C', '#06D6A0', '#118AB2'
   ],
   pastel: [
-    '#FFD1DC', '#B5EAD7', '#C7CEEA', '#FFDAC1', '#E2F0CB', 
+    '#FFD1DC', '#B5EAD7', '#C7CEEA', '#FFDAC1', '#E2F0CB',
     '#FFB7B2', '#D291BC', '#FEC8D8', '#E0BBE4', '#BDE0FE'
   ],
   professional: [
-    '#2D3047', '#9381FF', '#B8B8FF', '#F8F7FF', '#FFD8BE', 
+    '#2D3047', '#9381FF', '#B8B8FF', '#F8F7FF', '#FFD8BE',
     '#FF9B71', '#E84855', '#7DBBC3', '#36C4C0', '#1D8A99'
   ],
   brand: Object.values(BrandColors)
@@ -82,8 +85,8 @@ export function getRandomRGBAColor(alpha = Math.random()): string {
  * @returns 颜色数组
  */
 export function createColorArray(
-  count = 5, 
-  format: 'hex' | 'rgb' | 'rgba' | 'theme' = 'hex', 
+  count = 5,
+  format: 'hex' | 'rgb' | 'rgba' | 'theme' = 'hex',
   options?: string | number
 ): string[] {
   const colors: string[] = [];
